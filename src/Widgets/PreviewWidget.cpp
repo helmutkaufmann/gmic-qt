@@ -484,7 +484,7 @@ bool PreviewWidget::eventFilter(QObject *, QEvent * event)
 
 void PreviewWidget::leaveEvent(QEvent *) {}
 
-void PreviewWidget::enterEvent(QEvent *) {}
+void PreviewWidget::enterEvent(QEnterEvent *event) {}
 
 void PreviewWidget::wheelEvent(QWheelEvent * event)
 {
