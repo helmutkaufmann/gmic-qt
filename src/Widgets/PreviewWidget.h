@@ -96,7 +96,7 @@ protected:
   void paintEvent(QPaintEvent * e) override;
   bool eventFilter(QObject *, QEvent * event) override;
   void leaveEvent(QEvent *) override;
-  void enterEvent(QEvent *) override;
+  void enterEvent(QEnterEvent *event) override;
 
 signals:
   void previewVisibleRectIsChanging();
